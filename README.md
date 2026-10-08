@@ -62,7 +62,7 @@ I learn by building realistic environments, testing them, troubleshooting failur
 ### <img src="https://api.iconify.design/lucide/network.svg?color=%2358a6ff" width="22" align="absmiddle"> Lab network architecture
 
 <p align="center">
-  <img src="assets/wazuh_soc_lab_diagram_4608x3072.png" alt="SOC Analyst Home Lab network architecture" width="700">
+  <img src="assets/wazuh_soc_lab_diagram.png" alt="SOC Analyst Home Lab network architecture" width="700">
 </p>
 
 | | Project | Outcome | Skills |
