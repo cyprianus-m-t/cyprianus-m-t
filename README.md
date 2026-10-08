@@ -1,10 +1,10 @@
 <div align="center">
 
-# 👋 Hi, I'm Mojaki Tjeeka
+# Hi, I'm Mojaki Tjeeka
 
-### Computing graduate · Infrastructure · Security · Data & ML
+### Computing graduate · IT Infrastructure · Information Security · Data & ML
 
-*I build labs, break things on purpose, analyse what happened, and document it all.*
+*I build labs, break things on purpose, analyse what happened, document it all, and learn from it.*
 
 ![Degree](https://img.shields.io/badge/BSc_(Hons)-Computing-0d1117?style=for-the-badge&logo=academia&logoColor=white)
 ![Security](https://img.shields.io/badge/Security-SOC_&_Blue_Team-e03c31?style=for-the-badge)
@@ -15,21 +15,22 @@
 
 ---
 
-## 🧭 About Me
+## <img src="https://api.iconify.design/lucide/compass.svg?color=%2358a6ff" width="26" align="absmiddle"> About Me
 I'm a BSc (Hons) Computing graduate with a background in Networking & Infrastructure Management, interested in building, supporting and securing IT environments.
 
 My work focuses primarily on IT infrastructure and cybersecurity, with practical experience through hands-on labs involving Windows Server, Active Directory, VMware, Linux and Wazuh.
 
 I learn by building realistic environments, testing them, troubleshooting failures and documenting the results.
 
-- 🔭 Every project is a hands-on lab with configs, screenshots, and a formal write-up
-- 🛡️ Blue team focus — I've gone deep on SIEM detection engineering, proactive threat hunting, and the full SOC analyst workflow from triage to post-incident report
-- 💼 Open to **junior roles** in IT, security, data or software
+- <img src="https://api.iconify.design/lucide/telescope.svg?color=%2358a6ff" width="18" align="absmiddle"> Every project is a hands-on lab with configs, screenshots, and a formal write-up
+- <img src="https://api.iconify.design/lucide/shield-check.svg?color=%23e03c31" width="18" align="absmiddle"> Blue team focus — I've gone deep on SIEM detection engineering, proactive threat hunting, and the full SOC analyst workflow from triage to post-incident report
+- <img src="https://api.iconify.design/lucide/briefcase.svg?color=%23f7931e" width="18" align="absmiddle"> Open to **junior roles** in IT, security, data or software
 
 ---
-## 🧠 What I Can Do
 
-| 🛡️ Cybersecurity | 🖥️ Infrastructure | 💻 Dev & Automation | 📊 Data & ML |
+## <img src="https://api.iconify.design/lucide/brain.svg?color=%23a371f7" width="26" align="absmiddle"> What I Can Do
+
+| <img src="https://api.iconify.design/lucide/shield-check.svg?color=%23e03c31" width="18" align="absmiddle"> Cybersecurity | <img src="https://api.iconify.design/lucide/server.svg?color=%230078D4" width="18" align="absmiddle"> Infrastructure | <img src="https://api.iconify.design/lucide/terminal.svg?color=%234EAA25" width="18" align="absmiddle"> Dev & Automation | <img src="https://api.iconify.design/lucide/bar-chart-3.svg?color=%23f7931e" width="18" align="absmiddle"> Data & ML |
 |---|---|---|---|
 | SIEM deployment & tuning | VMware lab environments | Python · PowerShell · Bash | Data cleaning & EDA |
 | Windows event log analysis | Windows Server & AD DS | Git & GitHub workflows | Pandas · Matplotlib |
@@ -37,43 +38,32 @@ I learn by building realistic environments, testing them, troubleshooting failur
 | Threat hunting & IOC pivoting | Linux server administration | Scripting & automation | Jupyter notebooks |
 | MITRE ATT&CK mapping | Network troubleshooting | Web apps (PHP · JS · Node) | Data visualisation |
 | Incident response (NIST 800-61) | Virtualisation & snapshots | SQL & database management | Model evaluation |
+
 ---
 
-## 🗂️ What I Work On
+## <img src="https://api.iconify.design/lucide/layout-grid.svg?color=%2358a6ff" width="26" align="absmiddle"> What I Work On
 
 | | Area | What it covers |
 |:-:|---|---|
-| 🛡️ | **Security & Blue Team** | SIEM, detection engineering, threat hunting, incident response |
-| 🖥️ | **Virtualization & Active Directory** | Lab design, domain services, networking, system administration |
-| 📊 | **Data Analytics** | Cleaning, analysis, visualisation, dashboards |
-| 🤖 | **Machine Learning** | Models, evaluation, applied experiments |
-| 💻 | **Programming** | Scripts, tools, automation, small applications |
+| <img src="https://api.iconify.design/lucide/shield-check.svg?color=%23e03c31" width="20"> | **Security & Blue Team** | SIEM, detection engineering, threat hunting, incident response |
+| <img src="https://api.iconify.design/lucide/server.svg?color=%230078D4" width="20"> | **Virtualization & Active Directory** | Lab design, domain services, networking, system administration |
+| <img src="https://api.iconify.design/lucide/bar-chart-3.svg?color=%23f7931e" width="20"> | **Data Analytics** | Cleaning, analysis, visualisation, dashboards |
+| <img src="https://api.iconify.design/lucide/bot.svg?color=%23a371f7" width="20"> | **Machine Learning** | Models, evaluation, applied experiments |
+| <img src="https://api.iconify.design/lucide/terminal.svg?color=%234EAA25" width="20"> | **Programming** | Scripts, tools, automation, small applications |
 
 ---
 
-## ⭐ Featured Project: SOC Analyst Home Lab
+## <img src="https://api.iconify.design/lucide/star.svg?color=%23f7c948" width="26" align="absmiddle"> Featured Project: SOC Analyst Home Lab
 
 > A defender-side SOC lab. Attacks run from Kali and are detected, hunted and responded to from the SIEM, with **no agent on the attacker machine**, mirroring real SOC visibility constraints.
 
-[![soc-analyst-homelab](https://img.shields.io/badge/📂%20View%20the%20repo-soc--analyst--homelab-2ea44f?style=for-the-badge)](https://github.com/cyprianus-m-t/soc-analyst-homelab)
+[![soc-analyst-homelab](https://img.shields.io/badge/View_the_repo-soc--analyst--homelab-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cyprianus-m-t/soc-analyst-homelab)
 
-```
-                 192.2.42.0/24  (VMware bridged)
+### <img src="https://api.iconify.design/lucide/network.svg?color=%2358a6ff" width="22" align="absmiddle"> Lab network architecture
 
-   ┌──────────────┐        attacks         ┌─────────────────────┐
-   │  Kali Linux  │ ─────────────────────▶ │ Windows Server 2012 │
-   │  Attacker    │                        │ AD DS · DC          │
-   └──────────────┘                        └──────────┬──────────┘
-                                                      │ domain
-                                           ┌──────────▼──────────┐
-                                           │ Windows 11 Endpoint │
-                                           └──────────┬──────────┘
-                                                      │ agent logs
-                                           ┌──────────▼──────────┐
-                                           │  Ubuntu · Wazuh     │
-                                           │  SIEM / XDR         │
-                                           └─────────────────────┘
-```
+<p align="center">
+  <img src="assets/wazuh_soc_lab_diagram_4608x3072.png" alt="SOC Analyst Home Lab network architecture" width="700">
+</p>
 
 | | Project | Outcome | Skills |
 |:-:|---|---|---|
@@ -87,24 +77,24 @@ I learn by building realistic environments, testing them, troubleshooting failur
 
 ---
 
-## 🚀 Project Roadmap
+## <img src="https://api.iconify.design/lucide/rocket.svg?color=%23e03c31" width="26" align="absmiddle"> Project Roadmap
 
 Projects in progress or planned. I'll link each one here as it ships.
 
 | Status | Area | Project |
 |:-:|---|---|
-| ✅ | 🛡️ Security | [SOC Analyst Home Lab](https://github.com/cyprianus-m-t/soc-analyst-homelab) |
-| 🔨 | 🖥️ Infrastructure | Virtualization lab: hypervisor setup, networking, VM templates |
-| 🔨 | 🖥️ Infrastructure | Active Directory lab: domain build, users and groups, GPO, DNS/DHCP |
-| 📅 | 📊 Data | Data analytics project: dataset → cleaning → insights → dashboard |
-| 📅 | 🤖 ML | Machine learning project: problem → model → evaluation → write-up |
-| 📅 | 💻 | Programming projects: automation scripts and small tools |
+| <img src="https://api.iconify.design/lucide/circle-check.svg?color=%232ea44f" width="20"> | <img src="https://api.iconify.design/lucide/shield-check.svg?color=%23e03c31" width="16" align="absmiddle"> Security | [SOC Analyst Home Lab](https://github.com/cyprianus-m-t/soc-analyst-homelab) |
+| <img src="https://api.iconify.design/lucide/hammer.svg?color=%23f7931e" width="20"> | <img src="https://api.iconify.design/lucide/server.svg?color=%230078D4" width="16" align="absmiddle"> Infrastructure | Virtualization lab: hypervisor setup, networking, VM templates |
+| <img src="https://api.iconify.design/lucide/hammer.svg?color=%23f7931e" width="20"> | <img src="https://api.iconify.design/lucide/server.svg?color=%230078D4" width="16" align="absmiddle"> Infrastructure | Active Directory lab: domain build, users and groups, GPO, DNS/DHCP |
+| <img src="https://api.iconify.design/lucide/calendar.svg?color=%238b949e" width="20"> | <img src="https://api.iconify.design/lucide/bar-chart-3.svg?color=%23f7931e" width="16" align="absmiddle"> Data | Data analytics project: dataset → cleaning → insights → dashboard |
+| <img src="https://api.iconify.design/lucide/calendar.svg?color=%238b949e" width="20"> | <img src="https://api.iconify.design/lucide/bot.svg?color=%23a371f7" width="16" align="absmiddle"> ML | Machine learning project: problem → model → evaluation → write-up |
+| <img src="https://api.iconify.design/lucide/calendar.svg?color=%238b949e" width="20"> | <img src="https://api.iconify.design/lucide/terminal.svg?color=%234EAA25" width="16" align="absmiddle"> Programming | Programming projects: automation scripts and small tools |
 
-<sub>✅ Done · 🔨 In progress · 📅 Planned</sub>
+<sub><img src="https://api.iconify.design/lucide/circle-check.svg?color=%232ea44f" width="12" align="absmiddle"> Done · <img src="https://api.iconify.design/lucide/hammer.svg?color=%23f7931e" width="12" align="absmiddle"> In progress · <img src="https://api.iconify.design/lucide/calendar.svg?color=%238b949e" width="12" align="absmiddle"> Planned</sub>
 
 ---
 
-## 🔄 How I Work
+## <img src="https://api.iconify.design/lucide/refresh-cw.svg?color=%2358a6ff" width="26" align="absmiddle"> How I Work
 
 ```
   Plan  ─▶  Build  ─▶  Test / Break  ─▶  Analyse  ─▶  Document  ─▶  Improve
@@ -114,9 +104,9 @@ Every repo aims to include a clear README, setup steps, screenshots or outputs, 
 
 ---
 
-## 🧰 Toolkit
+## <img src="https://api.iconify.design/lucide/wrench.svg?color=%238b949e" width="26" align="absmiddle"> Toolkit
 
-**🛡️ Security**
+<img src="https://api.iconify.design/lucide/shield-check.svg?color=%23e03c31" width="18" align="absmiddle"> **Security**
 
 ![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat-square&logo=elastic&logoColor=white)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-e03c31?style=flat-square)
@@ -125,21 +115,21 @@ Every repo aims to include a clear README, setup steps, screenshots or outputs, 
 ![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=flat-square)
 ![Hydra](https://img.shields.io/badge/Hydra-black?style=flat-square)
 
-**🖥️ Infrastructure**
+<img src="https://api.iconify.design/lucide/server.svg?color=%230078D4" width="18" align="absmiddle"> **Infrastructure**
 
 ![VMware](https://img.shields.io/badge/VMware_Workstation-607078?style=flat-square&logo=vmware&logoColor=white)
 ![Windows Server](https://img.shields.io/badge/Windows_Server_2012-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu_Server-E95420?style=flat-square&logo=ubuntu&logoColor=white)
 
-**📊 Data & 🤖 ML** 
+<img src="https://api.iconify.design/lucide/database.svg?color=%23f7931e" width="18" align="absmiddle"> **Data** & <img src="https://api.iconify.design/lucide/bot.svg?color=%23a371f7" width="18" align="absmiddle"> **ML**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 
-**💻 Programming**
+<img src="https://api.iconify.design/lucide/terminal.svg?color=%234EAA25" width="18" align="absmiddle"> **Programming**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
@@ -148,7 +138,7 @@ Every repo aims to include a clear README, setup steps, screenshots or outputs, 
 
 ---
 
-## 📫 Let's Connect
+## <img src="https://api.iconify.design/lucide/mail.svg?color=%2358a6ff" width="26" align="absmiddle"> Let's Connect
 
 [![Email](https://img.shields.io/badge/Email-mojakitjeeka@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mojakitjeeka@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-cyprianus--m--t-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cyprianus-m-t)
@@ -156,6 +146,6 @@ Every repo aims to include a clear README, setup steps, screenshots or outputs, 
 
 <div align="center">
 
-<sub>⚠️ All attack simulations run in an isolated lab environment.</sub>
+<sub><img src="https://api.iconify.design/lucide/triangle-alert.svg?color=%23f7931e" width="12" align="absmiddle"> All attack simulations run in an isolated lab environment.</sub>
 
 </div>
