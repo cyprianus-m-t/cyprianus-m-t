@@ -72,6 +72,7 @@ I learn by building realistic environments, testing them, troubleshooting failur
 | **03** | [Active Directory Attack Detection](https://github.com/cyprianus-m-t/soc-analyst-homelab/blob/main/project-3-ad-attacks) | Detected rogue account creation, DA escalation, and log clearing via Windows event analysis | `AD security` `Log analysis` |
 | **04** | [Threat Hunting](https://github.com/cyprianus-m-t/soc-analyst-homelab/blob/main/project-4-threat-hunting) | Reconstructed a 3-event attack chain from fragmented SIEM logs; wrote a P1 case note for Tier 2 escalation | `Hunting` `IOC pivoting` `Case documentation` |
 | **05** | [Incident Response Simulation](https://github.com/cyprianus-m-t/soc-analyst-homelab/blob/main/project-5-incident-response) | Ran the full IR lifecycle — containment, eradication, recovery — and wrote the post-incident report | `NIST 800-61` `AD remediation` |
+| **06** | [File Integrity Monitoring ](https://github.com/cyprianus-m-t/soc-analyst-homelab/blob/main/project-6-file-integrity-monitoring) | Ran the full IR lifecycle — containment, eradication, recovery — and wrote the post-incident report | `NIST 800-61` `AD remediation` |
 
 *"The attacker cleared the local Security log three times. Wazuh had already forwarded everything."*
 
